@@ -22,7 +22,6 @@ h3 {
     flex-direction: row;
     align-items: flex-start;
 
-    background: #27292f;
 
     overflow-y: scroll;
 
@@ -80,4 +79,31 @@ h3 {
     margin: -1px 0 0 0;
     top: 100%;
     left: 0;
+}
+
+
+path.symbol {
+
+    stroke-width: 1;
+    fill: none;
+
+}
+
+.brush-wrapper .extent {
+
+    fill: rgba(0,0,0, .1);
+
+}
+
+.legend-item {
+
+    cursor: pointer;
+    fill: rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+.legend-item .selected {
+
+    fill: rgba(0, 0, 0, 1);
+
 }
